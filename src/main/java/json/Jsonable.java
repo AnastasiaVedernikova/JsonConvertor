@@ -7,3 +7,4 @@ public interface Jsonable {
 
     JsonObject toJsonObject();
 }
+
