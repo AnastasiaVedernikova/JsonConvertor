@@ -17,6 +17,7 @@ public class Student extends BasicStudent {
         }
     }
 
+    
     @Override
     public JsonObject toJsonObject() {
         JsonObject student = super.toJsonObject();
@@ -34,3 +35,4 @@ public class Student extends BasicStudent {
         return student;
     }
 }
+
