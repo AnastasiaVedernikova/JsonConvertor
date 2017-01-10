@@ -13,6 +13,7 @@ public class BasicStudent implements Jsonable {
 
     public BasicStudent() {
     }
+    
 
     public BasicStudent(String name, String surname, Integer year) {
         this.name = name;
