@@ -10,6 +10,7 @@ public class JsonString extends Json {
         this.string = string;
     }
 
+
     @Override
     public String toJson() {
         return "'" + string + "'";

@@ -15,3 +15,4 @@ public class JsonBoolean extends Json {
         return b.toString();
     }
 }
+

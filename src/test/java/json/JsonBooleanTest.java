@@ -8,6 +8,7 @@ import static org.junit.Assert.assertEquals;
  * Created by Andrii_Rodionov on 1/5/2017.
  */
 public class JsonBooleanTest {
+
     @Test
     public void testToJsonTrue() {
         JsonBoolean jsonBoolean = new JsonBoolean(true);

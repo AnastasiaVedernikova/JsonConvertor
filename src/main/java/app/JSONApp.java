@@ -11,6 +11,7 @@ public class JSONApp {
         Json jYear = new JsonNumber(2);
         print(jYear); // 2
 
+
         Json jMarks = new JsonArray(new JsonNumber(3), new JsonNumber(4));
         print(jMarks); // [3, 4]
 

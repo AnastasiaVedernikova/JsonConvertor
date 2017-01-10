@@ -15,3 +15,4 @@ public class JsonNumber extends Json {
         return number.toString();
     }
 }
+

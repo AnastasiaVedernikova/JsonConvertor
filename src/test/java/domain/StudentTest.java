@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
  * Created by Andrii_Rodionov on 1/6/2017.
  */
 public class StudentTest {
+
     @Test
     public void testToJsonWithEmptyExams() throws Exception {
 
@@ -20,6 +21,7 @@ public class StudentTest {
                 "Rodionov",
                 3
         );
+
 
         JsonObject jsonObject = student.toJsonObject();
 

@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
  * Created by Andrii_Rodionov on 1/5/2017.
  */
 public class JsonObjectAddFindProjectionTest {
+
     @Test
     public void testAddToEmptyJsonObject() throws Exception {
         JsonObject jsonObject = new JsonObject();
@@ -87,6 +88,7 @@ public class JsonObjectAddFindProjectionTest {
 
         JSONAssert.assertEquals(expectedJSON, jsonObjectProjection.toJson(), true);
     }
+
 
     @Test
     public void testProjectionPartialMatches() throws Exception {

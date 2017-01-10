@@ -11,6 +11,7 @@ public class BasicStudent implements Jsonable {
     protected String surname;
     protected Integer year;
 
+
     public BasicStudent() {
     }
 

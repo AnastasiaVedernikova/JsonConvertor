@@ -12,3 +12,4 @@ public class JsonNull extends Json {
         return "null";//null
     }
 }
+

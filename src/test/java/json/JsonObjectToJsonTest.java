@@ -8,6 +8,7 @@ import org.skyscreamer.jsonassert.JSONAssert;
  * Created by Andrii_Rodionov on 1/5/2017.
  */
 public class JsonObjectToJsonTest {
+    
 
     @Test
     public void testToJsonWithZeroPairs() throws Exception {
