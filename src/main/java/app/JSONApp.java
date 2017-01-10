@@ -35,6 +35,7 @@ public class JSONApp {
         }
 
     public static JsonObject sessionResult() {
+        
        // JsonObject jsonObject = null;
         JsonArray Arr = new JsonArray(
                 new JsonObject(new JsonPair("course", new JsonString("OOP")),
