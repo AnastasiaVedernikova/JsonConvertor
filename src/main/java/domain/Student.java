@@ -22,9 +22,9 @@ public class Student extends BasicStudent {
     @Override
     public JsonObject toJsonObject() {
         JsonObject student = super.toJsonObject();
-        JsonObject[] exams = new JsonObject[Result.size()];//масив екзаменів
+        JsonObject[] exams = new JsonObject[Result.size()];//array of exams
         int i = 0;
-        for (Tuple<String, Integer> ex: Result) {//для кожного екзамена створюю масив
+        for (Tuple<String, Integer> ex: Result) {//for each el create JasObj
             exams[i] = new JsonObject(
                     new JsonPair("course", new JsonString(ex.key)),
                     new JsonPair("mark", new JsonNumber(ex.value)),
@@ -32,7 +32,7 @@ public class Student extends BasicStudent {
 
             i += 1;
         }
-        student.add(new JsonPair("exams", new JsonArray(exams)));//до обєкта додаю екзамени
+        student.add(new JsonPair("exams", new JsonArray(exams)));//add exams to obj
         return student;
     }
 }
